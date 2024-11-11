@@ -1,10 +1,25 @@
-Virtual environments
-$ sudo apt-get install python-virtualenv
-$ python3 -m venv venv
-$ . venv/bin/activate
+Create virtual environments
+
+```
+sudo apt-get install python-virtualenv
+```
+
+```
+python3 -m venv venv
+```
+
+```
+. venv/bin/activate
+```
 
 Install all project dependencies using:
-$ pip install -r requirements.txt
+
+```
+pip install -r requirements.txt
+```
 
 Start project
-$ python app.py
+
+```
+python app/main.py
+```
